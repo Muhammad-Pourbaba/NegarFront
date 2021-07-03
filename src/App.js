@@ -5,16 +5,16 @@ import {Products, Navbar} from './components'
 import { commerce } from './lib/commerce'
 
 const app = () => {
-    const [products, setProducts]= UseState([]);
+    // const [products, setProducts]= UseState([]);
 
-    const FetchProducts = async()=> {
-        const {data}=await commerce.products.list();
-        setProducts(data);
-    }
-    UseEffect(()=>{
-        FetchProducts();
+    // const FetchProducts = async()=> {
+    //     const {data}=await commerce.products.list();
+    //     setProducts(data);
+    // }
+    // UseEffect(()=>{
+    //     FetchProducts();
 
-    },[]);
+    // },[]);
 
     console.log(products);
     return (
