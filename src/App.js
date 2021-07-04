@@ -1,8 +1,8 @@
-import React, {UseState , UseEffect} from 'react'
-// import Products from './components/Products/Products' ;
-// import Navbar from './components/navbar/Navbar';
-import {Products, Navbar} from './components'
-import { commerce } from './lib/commerce'
+import React, {UseState , UseEffect} from 'react';
+
+import {Products, Navbar} from './components';
+
+// import { commerce } from './lib/commerce'
 
 const app = () => {
     // const [products, setProducts]= UseState([]);
@@ -16,7 +16,7 @@ const app = () => {
 
     // },[]);
 
-    console.log(products);
+    // console.log(products);
     return (
         <div>
             <Navbar />
